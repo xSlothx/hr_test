@@ -17,7 +17,7 @@
    COMMENT ON COLUMN "HR_NEW"."COUNTRIES"."COUNTRY_ID" IS 'Primary key of countries table.';
    COMMENT ON COLUMN "HR_NEW"."COUNTRIES"."COUNTRY_NAME" IS 'Country name';
    COMMENT ON COLUMN "HR_NEW"."COUNTRIES"."REGION_ID" IS 'Region ID for the country. Foreign key to region_id column in the departments table.';
-   COMMENT ON TABLE "HR_NEW"."COUNTRIES"  IS 'country table. Contains 25 rows. References with locations table. New comment Test';
+   COMMENT ON TABLE "HR_NEW"."COUNTRIES"  IS '#MIGRATED# country table. Contains 25 rows. References with locations table. New comment Test';
 
   CREATE UNIQUE INDEX "HR_NEW"."COUNTRY_C_ID_PK" ON "HR_NEW"."COUNTRIES" ("COUNTRY_ID") 
   PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
