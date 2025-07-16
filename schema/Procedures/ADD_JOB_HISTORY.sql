@@ -5,7 +5,7 @@
    , p_end_date        job_history.end_date%type
    , p_job_id          job_history.job_id%type
    , p_department_id   job_history.department_id%type
-   )/*migrated*/
+   )/*mat is working on proc*/
 IS
 BEGIN
   INSERT INTO job_history (employee_id, start_date, end_date,
