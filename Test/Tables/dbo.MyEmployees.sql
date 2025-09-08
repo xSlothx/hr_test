@@ -1,0 +1,10 @@
+SET ANSI_NULLS ON
+SET QUOTED_IDENTIFIER ON
+
+CREATE TABLE [dbo].[MyEmployees] (
+	[FIRST_NAME] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[LAST_NAME] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[EMAIL] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
+	[SALARY] int,
+	[DEPARTMENT_ID] int
+) ON [PRIMARY]
