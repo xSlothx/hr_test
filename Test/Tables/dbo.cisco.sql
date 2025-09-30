@@ -16,7 +16,8 @@ CREATE TABLE [dbo].[cisco] (
 	[Test3] int,
 	[Test4] nchar(10) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[Test5] int,
-	[Column_16] int
+	[Column_16] int,
+	[Column_17] int
 ) ON [PRIMARY]
 CREATE STATISTICS [_WA_Sys_00000001_6E01572D]
 ON [dbo].[cisco] ([GeographyKey])
