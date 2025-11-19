@@ -20,7 +20,8 @@ CREATE TABLE [dbo].[cisco] (
 	[Column_17] int,
 	[Column_18] int,
 	[Column_19] int,
-	[Column_20] int
+	[Column_20] int,
+	[Column_21] int
 ) ON [PRIMARY]
 CREATE STATISTICS [_WA_Sys_00000001_6E01572D]
 ON [dbo].[cisco] ([GeographyKey])
